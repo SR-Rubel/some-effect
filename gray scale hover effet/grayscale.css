@@ -1,0 +1,20 @@
+body{
+	margin:o auto;
+	background:#262626;
+}
+img{
+	position:absolute;
+	//top:50%;
+	//left:50%;
+	height:400px;
+	width:300px;
+	//transform:translate(-50%,-50%);
+	transform:2s ease all;
+	filter:grayscale(100%);
+}
+img:hover{
+	filter:drop-shadow(15px 15px 40px #3E6840);
+}
+.position{
+	left:320px;
+}

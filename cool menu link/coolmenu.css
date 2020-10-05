@@ -1,0 +1,37 @@
+body{
+	margin:0 auto;
+	background:#0b0b0b;
+}
+.style{
+	position:absolute;
+	top:50%;
+	left:50%;
+	//transform:tanslateX(-50%) translateY(-50%);
+	transform:translate(-50%,-50%);
+}
+li{
+	display:inline-block;
+}
+li a{
+	text-decoration:none;
+	display:inline-block;
+	color:#fff;
+	font-family:arial;
+	font-weight:lighter;
+	font-size:28px;
+	padding:0 20px;
+	
+}
+a::after{
+	content:'';
+	width:0%;
+	display:block;
+	height:2px;
+	background:#fff;
+	transition:width .3s;
+}
+a:hover::after{
+	width:100%;
+	transition:width .3s;
+	
+}

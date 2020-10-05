@@ -1,0 +1,29 @@
+body{
+	margin:0 auto;
+	//background:radial-gradient(#03a9f4,#004b6d);
+	height:100vh;
+	background-image: linear-gradient(to right top, #30394f, #2c4a58, #38595a, #51675b, #6d7261);
+}
+h1{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,50%);
+	font-family:sans-serif;
+	color:#fff;
+	//font-size:6em;
+}
+h1:before{
+	content:'REFELXATION';
+	position:absolute;
+	top:0;
+	left:0;
+	transform-origin:bottom;
+	//transform: translate(-50%,50%);
+	transform:rotateX(180deg);
+	line-height:0.865em;
+	background:linear-gradient(0deg,#fff 0,transparent 80%);
+	-webkit-background-clip:text;
+	color:transparent;
+	opacity:.8;
+}

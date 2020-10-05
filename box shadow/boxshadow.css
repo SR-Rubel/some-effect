@@ -1,0 +1,22 @@
+.box{
+	height:500px;
+	width:500px;
+	background:#fff;
+	-webkit-box-shadow: 2px 4px 7px -1px rgba(0,0,0,0.39);
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+	transition:all .3s ease-in-out;
+}
+.box:hover{
+	-webkit-box-shadow: 10px 10px 10px -4px rgba(0,0,0,0.54);
+	-moz-box-shadow: 10px 10px 10px -4px rgba(0,0,0,0.54);
+	box-shadow: 10px 10px 10px -4px rgba(0,0,0,0.54);
+}
+img{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top:5px;
+	height:490px;
+	width:490px;
+}
